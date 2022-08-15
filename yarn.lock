@@ -1511,6 +1511,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@juntossomosmais/venice-types@^0.10.4":
+  version "0.10.4"
+  resolved "https://npm.pkg.github.com/download/@juntossomosmais/venice-types/0.10.4/a7e9ddcfd8207e5c0276793b91fd359cc9721b01#a7e9ddcfd8207e5c0276793b91fd359cc9721b01"
+  integrity sha512-suhBsRVDPZVrsUANvSbm4nKWYOLGF4ggLOIw4TrXNKPHTGKbN8nPmwTrW8yLOqFC/uycvPNKTMmYXd9UKtya5w==
+
 "@juntossomosmais/venice-vue@^0.28.1":
   version "0.28.1"
   resolved "https://npm.pkg.github.com/download/@juntossomosmais/venice-vue/0.28.1/afc6cf7fc950eb02e769f29581f633f46a372ce8#afc6cf7fc950eb02e769f29581f633f46a372ce8"
@@ -13463,7 +13468,14 @@ sass-loader@^8.0.2:
     schema-utils "^2.6.1"
     semver "^6.3.0"
 
-sass@^1.26.5, sass@^1.54.4:
+sass@1.32.12:
+  version "1.32.12"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.12.tgz#a2a47ad0f1c168222db5206444a30c12457abb9f"
+  integrity sha512-zmXn03k3hN0KaiVTjohgkg98C3UowhL1/VSGdj4/VAAiMKGQOE80PFPxFP2Kyq0OUskPKcY5lImkhBKEHlypJA==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+
+sass@^1.26.5:
   version "1.54.4"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.4.tgz#803ff2fef5525f1dd01670c3915b4b68b6cba72d"
   integrity sha512-3tmF16yvnBwtlPrNBHw/H907j8MlOX8aTBnlNX1yrKx24RKcJGPyLhFUwkoKBKesR3unP93/2z14Ll8NicwQUA==

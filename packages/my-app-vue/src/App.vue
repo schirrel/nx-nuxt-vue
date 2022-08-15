@@ -9,6 +9,8 @@
 </template>
 
 <style lang="scss">
+@import '~@juntossomosmais/venice-vue/dist/styles.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
