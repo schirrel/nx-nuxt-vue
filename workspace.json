@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "my-app": "packages/my-app",
-    "my-app-e2e": "packages/my-app-e2e"
+    "my-app-e2e": "packages/my-app-e2e",
+    "my-app-vue": "packages/my-app-vue",
+    "my-app-vue-e2e": "packages/my-app-vue-e2e"
   }
 }
