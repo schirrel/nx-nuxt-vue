@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["node", "@nuxt/types"]
+  },
+  "include": ["**/*.ts", "**/*.js", "**/*.vue"]
+}

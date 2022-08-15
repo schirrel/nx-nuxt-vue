@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "../../.eslintrc.json",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:nuxt/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "extraFileExtensions": [".vue"]
+  },
+  "ignorePatterns": ["!**/*"],
+  "rules": {}
+}
