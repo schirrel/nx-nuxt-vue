@@ -46,7 +46,7 @@
 
     <NuxtLink to="/sobre">
       <v-btn color="primary" elevation="2" text> O que é a Loja Virtua? </v-btn>
-      <Button :is-loading="true">Default</Button>
+      <Button>Default</Button>
     </NuxtLink>
   </main>
 </template>
