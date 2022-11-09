@@ -1,5 +1,5 @@
 <template>
-  <NuxtTutorial />
+  <h1>oi</h1>
 </template>
 
 <script lang="ts">

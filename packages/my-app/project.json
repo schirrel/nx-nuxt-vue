@@ -6,7 +6,7 @@
     "build": {
       "executor": "@nx-plus/nuxt:browser",
       "options": {
-        "buildDir": "dist/packages/my-app"
+        "buildDir": "dist/production"
       },
       "configurations": {
         "production": {}
@@ -31,16 +31,33 @@
         "browserTarget": "my-app:build:production"
       }
     },
+    "nuxtgenerate": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "packages/my-app",
+        "commands": [
+          {
+            "command": "nuxt generate"
+          }
+        ]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/my-app/**/*.{ts,tsx,vue}"]
+        "lintFilePatterns": [
+          "packages/my-app/**/*.{ts,tsx,vue}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/my-app"],
+      "outputs": [
+        "coverage/packages/my-app"
+      ],
       "options": {
         "jestConfig": "packages/my-app/jest.config.ts",
         "passWithNoTests": true
